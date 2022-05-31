@@ -67,3 +67,6 @@ keymap('n', '<leader>bh', ':bp<CR>', {})
 -- Close Buffers
 keymap('n', '<leader>bd', ':bdelete<CR>', {})
 
+
+-- Plugins
+require('plugins')
