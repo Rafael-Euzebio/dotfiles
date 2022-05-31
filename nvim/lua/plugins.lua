@@ -39,5 +39,8 @@ return require('packer').startup(function()
         -- Language Syntax Highlight
         'sheerun/vim-polyglot',
 
+        -- AutoClose Pairs ([{
+        'jiangmiao/auto-pairs',
+
    }
 end)
