@@ -70,5 +70,7 @@ return require('packer').startup(function()
         require('Plugins.nvim-lspconfig'),
         require('Plugins.nvim-installer'),
 
+        -- Snippets,
+        'rafamadriz/friendly-snippets', 
    }
 end)
