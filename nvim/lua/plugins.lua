@@ -24,5 +24,7 @@ return require('packer').startup(function()
         -- Icons
         'kyazdani42/nvim-web-devicons',
         
+        -- Buffer Line
+        'noib3/nvim-cokeline',
    }
 end)
