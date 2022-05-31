@@ -51,3 +51,12 @@ keymap('n', '<leader>kk', '<C-W><C-K>', {})
 keymap('n', '<leader>jj', '<C-W><C-J>', {})
 keymap('n', '<leader>hh', '<C-W><C-H>',{})
 keymap('n', '<leader>ll', '<C-W><C-L>', {})
+
+-- Create and Close Tabs
+keymap('n', '<leader>tn', ':tabnew<CR>', {})
+keymap('n', '<leader>td', ':tabclose<CR>', {}) 
+
+-- Move Between Tabs
+keymap('n', '<leader>tl', ':tabnext<CR>', {})
+keymap('n', '<leader>th', ':tabprevious<CR>', {})
+
