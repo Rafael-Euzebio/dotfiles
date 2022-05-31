@@ -19,6 +19,8 @@ return require('packer').startup(function()
 
         -- Indent BlankLine
         'lukas-reineke/indent-blankline.nvim',
+        require('Plugins.nvim-indentblankline'),
+
         -- Icons
         'kyazdani42/nvim-web-devicons',
         
