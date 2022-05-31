@@ -1,0 +1,44 @@
+{
+	"background-color": "#262335",
+	"badge-color": "",
+	"bold-color": "",
+	"comment": "",
+	"cursor-background-color": "#000000",
+	"cursor-foreground-color": "#FFFFFF",
+	"foreground-color": "#F8F8F2",
+ 	"highlight-background-color": "#000000",
+    "highlight-foreground-color": "#FFFFFF",
+	"name": "Synthwave 84",
+
+    "palette": [
+      "#000000",
+      "#fe4450",
+      "#72f1b8",
+      "#f6a845",
+      "#BD93F9",
+      "#FF79C6",
+      "#8BE8FD",
+      "#BFBFBF",
+      "#4D4D4D",
+      "#fe4450",
+      "#84f2c1",
+      "#f6a845",
+      "#03edf9",
+      "#FF92D0",
+      "#9AEDFE",
+      "#E6E6E6"
+    ],
+    "use-badge-color": false,
+    "use-bold-color": false,
+    "use-cursor-color": false,
+    "use-highlight-color": false,
+    "use-theme-colors": false
+}
+
+
+
+
+
+
+
+
