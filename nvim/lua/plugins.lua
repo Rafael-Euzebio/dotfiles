@@ -85,5 +85,6 @@ return require('packer').startup(function()
         
         -- CMP Tabnine
         {'tzachar/cmp-tabnine', run='./install.sh', requires = 'hrsh7th/nvim-cmp'}, 
+        require('Plugins.nvim-cmp-tabnine'),
    }
 end)
