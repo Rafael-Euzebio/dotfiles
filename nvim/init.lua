@@ -13,3 +13,6 @@ set.relativenumber = true
 -- Live Search
 set.inccommand = "split"
 
+-- Show Cursorline 
+set.cursorline= true
+
