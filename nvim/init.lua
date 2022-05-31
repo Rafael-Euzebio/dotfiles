@@ -42,3 +42,6 @@ keymap('n', '<leader>n', ':noh<CR>', {})
 -- Esc
 keymap('i', 'jk', '<Esc>', {})
 
+-- Create Split 
+keymap('n', '<leader>hs', ':split<CR>', {})
+keymap('n', '<leader>vs', ':vsplit<CR>', {})
