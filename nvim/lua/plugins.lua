@@ -34,5 +34,6 @@ return require('packer').startup(function()
 
         -- Notify
         'rcarriga/nvim-notify',
+        require('Plugins.nvim-notify'),
    }
 end)
