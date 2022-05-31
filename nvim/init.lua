@@ -60,3 +60,10 @@ keymap('n', '<leader>td', ':tabclose<CR>', {})
 keymap('n', '<leader>tl', ':tabnext<CR>', {})
 keymap('n', '<leader>th', ':tabprevious<CR>', {})
 
+-- Navigate Between Buffersj
+keymap('n', '<leader>bl', ':bn<CR>', {})
+keymap('n', '<leader>bh', ':bp<CR>', {})
+
+-- Close Buffers
+keymap('n', '<leader>bd', ':bdelete<CR>', {})
+
