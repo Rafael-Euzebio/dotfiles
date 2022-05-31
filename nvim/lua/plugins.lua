@@ -65,6 +65,7 @@ return require('packer').startup(function()
         require('Plugins.nvim-emmet'), 
 
         -- LSP,
+        "williamboman/nvim-lsp-installer",
         "neovim/nvim-lspconfig",
         require('Plugins.nvim-lspconfig'),
    }
