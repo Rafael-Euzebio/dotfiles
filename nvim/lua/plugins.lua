@@ -63,5 +63,8 @@ return require('packer').startup(function()
         -- HTML Helper
         'mattn/emmet-vim',
         require('Plugins.nvim-emmet'), 
+
+        -- LSP,
+        "neovim/nvim-lspconfig",
    }
 end)
