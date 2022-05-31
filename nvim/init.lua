@@ -36,3 +36,6 @@ set.background = "dark"
 -- Keymap
 local keymap = vim.api.nvim_set_keymap
 
+-- Disable Highlight
+keymap('n', '<leader>n', ':noh<CR>', {})
+
