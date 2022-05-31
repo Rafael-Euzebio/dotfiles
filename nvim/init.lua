@@ -25,3 +25,7 @@ set.expandtab = true
 -- No Wrap Lines
 set.wrap = false
 
+-- Folding
+set.foldmethod = "indent"
+set.foldlevel = 1
+
