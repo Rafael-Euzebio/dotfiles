@@ -7,5 +7,6 @@ return require('packer').startup(function()
 
         -- Synthwave Colorscheme
         'artanikin/vim-synthwave84',
+        require('Plugins.nvim-colorscheme'),
    }
 end)
