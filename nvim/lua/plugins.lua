@@ -35,5 +35,9 @@ return require('packer').startup(function()
         -- Notify
         'rcarriga/nvim-notify',
         require('Plugins.nvim-notify'),
+
+        -- Language Syntax Highlight
+        'sheerun/vim-polyglot',
+
    }
 end)
