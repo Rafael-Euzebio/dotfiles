@@ -62,5 +62,6 @@ return require('packer').startup(function()
 
         -- HTML Helper
         'mattn/emmet-vim',
+        require('Plugins.nvim-emmet'), 
    }
 end)
