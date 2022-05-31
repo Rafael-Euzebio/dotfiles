@@ -45,3 +45,9 @@ keymap('i', 'jk', '<Esc>', {})
 -- Create Split 
 keymap('n', '<leader>hs', ':split<CR>', {})
 keymap('n', '<leader>vs', ':vsplit<CR>', {})
+
+-- Navigate Between Splits 
+keymap('n', '<leader>kk', '<C-W><C-K>', {})
+keymap('n', '<leader>jj', '<C-W><C-J>', {})
+keymap('n', '<leader>hh', '<C-W><C-H>',{})
+keymap('n', '<leader>ll', '<C-W><C-L>', {})
