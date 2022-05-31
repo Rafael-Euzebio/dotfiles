@@ -16,6 +16,9 @@ return require('packer').startup(function()
             },
             tag = 'nightly', 
         require('Plugins.nvim-nvimtree'),
+
+        -- Indent BlankLine
+        'lukas-reineke/indent-blankline.nvim',
         -- Icons
         'kyazdani42/nvim-web-devicons',
         
