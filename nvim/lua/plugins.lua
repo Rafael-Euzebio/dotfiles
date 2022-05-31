@@ -30,5 +30,6 @@ return require('packer').startup(function()
 
         -- Dashboard (Startpage)
         'glepnir/dashboard-nvim',
+        require('Plugins.nvim-dashboard'),
    }
 end)
