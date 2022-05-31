@@ -26,5 +26,6 @@ return require('packer').startup(function()
         
         -- Buffer Line
         'noib3/nvim-cokeline',
+        require('Plugins.nvim-bufferline'),
    }
 end)
