@@ -47,5 +47,7 @@ return require('packer').startup(function()
 
         -- AutoClose HTML Tags
         'alvan/vim-closetag',
+        require('Plugins.nvim-closetag'),
+
    }
 end)
