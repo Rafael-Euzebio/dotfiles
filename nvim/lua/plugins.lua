@@ -59,5 +59,8 @@ return require('packer').startup(function()
         'lewis6991/gitsigns.nvim',
         require('Plugins.nvim-lazygit'),
         require("Plugins.nvim-gitsigns"),
+
+        -- HTML Helper
+        'mattn/emmet-vim',
    }
 end)
