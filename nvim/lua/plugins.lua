@@ -56,6 +56,7 @@ return require('packer').startup(function()
 
         -- Git UI
         'kdheepak/lazygit.nvim',
+        'lewis6991/gitsigns.nvim',
         require('Plugins.nvim-lazygit'),
    }
 end)
