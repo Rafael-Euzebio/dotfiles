@@ -29,3 +29,7 @@ set.wrap = false
 set.foldmethod = "indent"
 set.foldlevel = 1
 
+-- Colors
+set.termguicolors = true
+set.background = "dark"
+
