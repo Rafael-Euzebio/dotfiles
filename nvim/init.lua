@@ -7,3 +7,6 @@ vim.g.mapleader = " "
 set.timeoutlen = 1000
 set.ttimeout = false
 
+-- Relative Numbers
+set.relativenumber = true
+
