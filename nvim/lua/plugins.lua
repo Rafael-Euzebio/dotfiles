@@ -66,5 +66,6 @@ return require('packer').startup(function()
 
         -- LSP,
         "neovim/nvim-lspconfig",
+        require('Plugins.nvim-lspconfig'),
    }
 end)
