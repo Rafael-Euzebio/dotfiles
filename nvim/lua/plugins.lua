@@ -52,5 +52,7 @@ return require('packer').startup(function()
         -- Fuzzy-Finder
         'nvim-telescope/telescope.nvim',
         'nvim-lua/plenary.nvim',
+        require('Plugins.nvim-telescope'),
+
    }
 end)
