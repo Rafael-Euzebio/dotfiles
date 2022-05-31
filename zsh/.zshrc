@@ -6,7 +6,12 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/peco_zsh/peco.plugin.zsh
+source ~/.zsh/zsh-z/zsh-z.plugin.zsh
 
+autoload -U compinit && compinit
+zstyle ':completion:*' menu select
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
