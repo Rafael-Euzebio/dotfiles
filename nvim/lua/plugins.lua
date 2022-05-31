@@ -73,5 +73,7 @@ return require('packer').startup(function()
         -- Snippets,
         'rafamadriz/friendly-snippets', 
         'L3MON4D3/LuaSnip',  
+        require('Plugins.nvim-snippets'),
+
    }
 end)
