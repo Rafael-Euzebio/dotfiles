@@ -42,5 +42,8 @@ return require('packer').startup(function()
         -- AutoClose Pairs ([{
         'jiangmiao/auto-pairs',
 
+        -- Show Colors of Rgba and Hex Codes
+        'lilydjwg/colorizer', 
+
    }
 end)
