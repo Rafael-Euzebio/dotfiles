@@ -10,3 +10,6 @@ set.ttimeout = false
 -- Relative Numbers
 set.relativenumber = true
 
+-- Live Search
+set.inccommand = "split"
+
