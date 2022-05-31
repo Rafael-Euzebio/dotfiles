@@ -54,5 +54,7 @@ return require('packer').startup(function()
         'nvim-lua/plenary.nvim',
         require('Plugins.nvim-telescope'),
 
+        -- Git UI
+        'kdheepak/lazygit.nvim',
    }
 end)
