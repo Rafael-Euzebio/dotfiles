@@ -49,5 +49,8 @@ return require('packer').startup(function()
         'alvan/vim-closetag',
         require('Plugins.nvim-closetag'),
 
+        -- Fuzzy-Finder
+        'nvim-telescope/telescope.nvim',
+        'nvim-lua/plenary.nvim',
    }
 end)
