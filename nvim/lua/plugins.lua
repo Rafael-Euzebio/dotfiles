@@ -75,5 +75,11 @@ return require('packer').startup(function()
         'L3MON4D3/LuaSnip',  
         require('Plugins.nvim-snippets'),
 
+        -- CMP Autocomplete
+        'hrsh7th/nvim-cmp',  
+        'hrsh7th/cmp-buffer', 
+        'hrsh7th/cmp-path', 
+        'hrsh7th/cmp-nvim-lsp', 
+        'saadparwaiz1/cmp_luasnip', 
    }
 end)
