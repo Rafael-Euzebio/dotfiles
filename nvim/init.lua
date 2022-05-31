@@ -39,3 +39,6 @@ local keymap = vim.api.nvim_set_keymap
 -- Disable Highlight
 keymap('n', '<leader>n', ':noh<CR>', {})
 
+-- Esc
+keymap('i', 'jk', '<Esc>', {})
+
