@@ -8,5 +8,16 @@ return require('packer').startup(function()
         -- Synthwave Colorscheme
         'artanikin/vim-synthwave84',
         require('Plugins.nvim-colorscheme'),
+
+        -- File-Tree
+        'kyazdani42/nvim-tree.lua',
+            requires = {
+                'kyazdani42/nvim-web-devicons', 
+            },
+            tag = 'nightly', 
+        require('Plugins.nvim-nvimtree'),
+        -- Icons
+        'kyazdani42/nvim-web-devicons',
+        
    }
 end)
