@@ -15,6 +15,7 @@ zstyle ':completion:*' menu select
 
 alias exa="exa --icons"
 alias ytfzf="ytfzf -t"
+alias ide="tilix --session=~/.config/tilix/ide.json"
 alias notes="nvim --listen /tmp/nvimsocket"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
