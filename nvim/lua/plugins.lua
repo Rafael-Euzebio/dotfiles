@@ -58,5 +58,6 @@ return require('packer').startup(function()
         'kdheepak/lazygit.nvim',
         'lewis6991/gitsigns.nvim',
         require('Plugins.nvim-lazygit'),
+        require("Plugins.nvim-gitsigns"),
    }
 end)
