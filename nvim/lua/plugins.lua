@@ -45,5 +45,7 @@ return require('packer').startup(function()
         -- Show Colors of Rgba and Hex Codes
         'lilydjwg/colorizer', 
 
+        -- AutoClose HTML Tags
+        'alvan/vim-closetag',
    }
 end)
