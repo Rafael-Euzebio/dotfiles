@@ -33,3 +33,6 @@ set.foldlevel = 1
 set.termguicolors = true
 set.background = "dark"
 
+-- Keymap
+local keymap = vim.api.nvim_set_keymap
+
