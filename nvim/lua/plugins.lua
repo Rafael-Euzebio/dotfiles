@@ -78,5 +78,11 @@ return require('packer').startup(function()
 
         -- Copilot
         'github/copilot.vim',
+    
+        -- Null-ls
+        'jose-elias-alvarez/null-ls.nvim',
+
+        -- Prettier
+        'MunifTanjim/prettier.nvim'
    }
 end)
