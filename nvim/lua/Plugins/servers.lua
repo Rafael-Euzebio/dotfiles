@@ -1,37 +1,37 @@
 servers = {
     -- Server list, uncomment the ones you need to download automatically
     
-        -- AWK 	
+        -- AWK
     -- 'awk_ls',
 
-        -- Angular 	
+        -- Angular
     -- 'angularls',
 
-        -- Ansible 	
+        -- Ansible
     -- 'ansiblels',
 
-        -- Arduino 
+        -- Arduino
     -- 'arduino_language_server',
 
-        -- Assembly 
+        -- Assembly
     -- 'asm_lsp',
 
-        -- Astro 	
+        -- Astro
     -- 'astro',
 
-        -- Bash 	
+        -- Bash
     -- 'bashls',
 
-        -- Beancount 	
+        -- Beancount
     -- 'beancount',
 
-        -- Bicep 	
+        -- Bicep
     -- 'bicep',
 
-        -- C 	
+        -- C
     -- 'ccls',
 
-        -- C 	
+        -- C
     -- 'clangd',
 
         -- C
@@ -46,322 +46,319 @@ servers = {
         -- C
     -- 'clangd',
 
-        -- CMake 	
+        -- CMake
     -- 'cmake',
 
-        -- CSS 	
+        -- CSS
     -- 'cssls',
 
-        -- CSS 	
+        -- CSS
     -- 'cssmodules_ls',
 
-        -- Clarity 	
+        -- Clarity
     -- 'clarity_lsp',
 
-        -- Clojure 	
+        -- Clojure
     -- 'clojure_lsp',
 
-        -- CodeQL 	
+        -- CodeQL
     -- 'codeqlls',
 
-        -- Crystal 	
+        -- Crystal
     -- 'crystalline',
 
-        -- Crystal 	
+        -- Crystal
     -- 'scry',
 
-        -- Cucumber 	
+        -- Cucumber
     -- 'cucumber_language_server',
 
-        -- Dart 	
+        -- Dart
     -- 'dartls',
 
-        -- Deno 	
+        -- Deno
     -- 'denols',
 
-        -- Dhall 	
+        -- Dhall
     -- 'dhall_lsp_server',
 
-        -- Diagnostic 
+        -- Diagnostic
     -- 'diagnosticls',
 
-        -- Dlang 	
+        -- Dlang
     -- 'serve_d',
 
-        -- Docker 	
+        -- Docker
     -- 'dockerls',
 
-        -- Dot 	
+        -- Dot
     -- 'dotls',
 
-        -- EFM 
+        -- EFM
     -- 'efm',
 
-        -- ESLint 
+        -- ESLint
     -- 'eslint',
 
-        -- Elixir 	
+        -- Elixir
     -- 'elixirls',
 
-        -- Elm 	
+        -- Elm
     -- 'elmls',
 
-        -- Ember 	
+        -- Ember
     -- 'ember',
 
-        -- Emmet 	
+        -- Emmet
     -- 'emmet_ls',
 
-        -- Erlang 	
+        -- Erlang
     -- 'erlangls',
 
         -- F
     -- 'fsautocomplete',
 
-        -- Flux 	
+        -- Flux
     -- 'flux_lsp',
 
-        -- Foam 
+        -- Foam
     -- 'foam_ls',
 
-        -- Fortran 	
+        -- Fortran
     -- 'fortls',
 
-        -- Go 	
+        -- Go
     -- 'golangci_lint_ls',
 
-        -- Go 	
+        -- Go
     -- 'gopls',
 
-        -- Grammarly 	
+        -- Grammarly
     -- 'grammarly',
 
-        -- GraphQL 	
+        -- GraphQL
     -- 'graphql',
 
-        -- Groovy 	
+        -- Groovy
     -- 'groovyls',
 
-        -- HTML 	
+        -- HTML
     -- 'html',
 
-        -- Haskell 	
+        -- Haskell
     -- 'hls',
 
-        -- Haxe 	
+        -- Haxe
     -- 'haxe_language_server',
 
-        -- Hoon 	
+        -- Hoon
     -- 'hoon_ls',
 
-        -- JSON 	
+        -- JSON
     -- 'jsonls',
 
-        -- Java 	
+        -- Java
     -- 'jdtls',
 
-        -- JavaScript 	
+        -- JavaScript
     -- 'quick_lint_js',
 
-        -- JavaScript 	
+        -- JavaScript
     -- 'tsserver',
 
-        -- Jsonnet 	
+        -- Jsonnet
     -- 'jsonnet_ls',
 
-        -- Julia 	
+        -- Julia
     -- 'julials',
 
-        -- Kotlin 	
+        -- Kotlin
     -- 'kotlin_language_server',
 
-        -- LaTeX 	
+        -- LaTeX
     -- 'ltex',
 
-        -- LaTeX 	
+        -- LaTeX
     -- 'texlab',
 
-        -- Lelwel 	
+        -- Lelwel
     -- 'lelwel_ls',
 
-        -- Lua 	
+        -- Lua
     -- 'sumneko_lua',
 
-        -- Markdown 	
+        -- Markdown
     -- 'prosemd_lsp',
 
-        -- Markdown 	
+        -- Markdown
     -- 'remark_ls',
 
-        -- Markdown 	
+        -- Markdown
     -- 'zk',
 
-        -- Metamath Zero 	 
+        -- Metamath Zero
     -- 'mm0_ls',
 
-        -- Nickel 	
+        -- Nickel
     -- 'nickel_ls',
 
-        -- Nim 	
+        -- Nim
     -- 'nimls',
 
-        -- OCaml 	
+        -- OCaml
     -- 'ocamlls',
 
-        -- OCaml 	
+        -- OCaml
     -- 'ocamllsp',
 
-        -- Objective C
+        -- Objective
     -- 'ccls',
 
-        -- OneScript 1C:Enterprise  
+        -- OneScript 1C:Enterprise
     -- 'bsl_ls',
 
-        -- OpenCL 	
+        -- OpenCL
     -- 'opencl_ls',
 
-        -- PHP 	
+        -- PHP
     -- 'intelephense',
 
-        -- PHP 	
+        -- PHP
     -- 'phpactor',
 
-        -- PHP 	
+        -- PHP
     -- 'psalm',
 
-        -- Perl 	
+        -- Perl
     -- 'perlnavigator',
 
-        -- Powershell 	
+        -- Powershell
     -- 'powershell_es',
 
-        -- Prisma 	
+        -- Prisma
     -- 'prismals',
 
-        -- Puppet 	
+        -- Puppet
     -- 'puppet',
 
-        -- PureScript 	
+        -- PureScript
     -- 'purescriptls',
 
-        -- Python 	
+        -- Python
     -- 'jedi_language_server',
 
-        -- Python 	
+        -- Python
     -- 'pyright',
 
-        -- Python 	
+        -- Python
     -- 'sourcery',
 
-        -- Python 
+        -- Python
     -- 'pylsp',
 
-        -- R 	
+        -- R
     -- 'r_language_server',
 
-        -- ReScript 	
+        -- ReScript
     -- 'rescriptls',
 
-        -- Reason 	
+        -- Reason
     -- 'reason_ls',
 
-        -- Robot Framework 	
+        -- Robot Framework
     -- 'robotframework_ls',
 
-        -- Rome 	
+        -- Rome
     -- 'rome',
 
-        -- Ruby 	
+        -- Ruby
     -- 'solargraph',
 
-        -- Rust 	
+        -- Rust
     -- 'rust_analyzer',
 
-        -- SQL 	
+        -- SQL
     -- 'sqlls',
 
-        -- SQL 	
+        -- SQL
     -- 'sqls',
 
-        -- Salt 	
+        -- Salt
     -- 'salt_ls',
 
-        -- Shopify Check  
+        -- Shopify Check
     -- 'theme_check',
 
-        -- Slint 	
+        -- Slint
     -- 'slint_lsp',
 
-        -- Solidity 	
+        -- Solidity
     -- 'solang',
 
-        -- Solidity 	
+        -- Solidity
     -- 'solc',
 
-        -- Solidity 
+        -- Solidity
     -- 'solidity_ls',
 
-        -- Sorbet 	
+        -- Sorbet
     -- 'sorbet',
 
-        -- Sphinx 	
+        -- Sphinx
     -- 'esbonio',
 
-        -- Stylelint 	
+        -- Stylelint
     -- 'stylelint_lsp',
 
-        -- Svelte 	
+        -- Svelte
     -- 'svelte',
 
-        -- Swift 	
+        -- Swift
     -- 'sourcekit',
 
-        -- SystemVerilog 	
+        -- SystemVerilog
     -- 'svls',
 
-        -- SystemVerilog 	
+        -- SystemVerilog
     -- 'verible',
 
-        -- TOML 	
+        -- TOML
     -- 'taplo',
 
-        -- Tailwind CSS 	
+        -- Tailwind CSS
     -- 'tailwindcss',
 
-        -- Teal 	
+        -- Teal
     -- 'teal_ls',
 
-        -- Terraform 	
+        -- Terraform
     -- 'terraformls',
 
-        -- Terraform 
+        -- Terraform
     -- 'tflint',
 
-        -- TypeScript 	
-    -- 'ttsserver',
-
-        -- V 	
+        -- V
     -- 'vls',
 
-        -- Vala 	
+        -- Vala
     -- 'vala_ls',
 
-        -- VimL 	
+        -- VimL
     -- 'vimls',
 
-        -- Vue 	
+        -- Vue
     -- 'volar',
 
-        -- Vue 	
+        -- Vue
     -- 'vuels',
 
-        -- XML 	
+        -- XML
     -- 'lemminx',
 
-        -- YAML 	
+        -- YAML
     -- 'yamlls',
 
-        -- Zig 	
+        -- Zig
     -- 'zls',
 }
 
