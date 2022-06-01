@@ -39,3 +39,6 @@ require('Plugins.nvim-snippets')
 -- CMP Tabnine
 require('Plugins.nvim-cmp')
 require('Plugins.nvim-cmp-tabnine')
+
+-- Prettier Setup
+require('Plugins.nvim-prettier')
