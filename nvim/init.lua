@@ -70,3 +70,4 @@ keymap('n', '<leader>bd', ':bdelete<CR>', {})
 
 -- Plugins
 require('plugins')
+require('plugins-requirer')
