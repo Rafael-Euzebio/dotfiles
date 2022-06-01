@@ -1,6 +1,7 @@
 -- Packer (in Manager)
 
 vim.cmd[[packadd packer.nvim]]
+
 return require('packer').startup(function()
     use {
         -- Packer
@@ -75,5 +76,7 @@ return require('packer').startup(function()
         -- Schemastore
         'b0o/schemastore.nvim',
 
+        -- Copilot
+        'github/copilot.vim',
    }
 end)
