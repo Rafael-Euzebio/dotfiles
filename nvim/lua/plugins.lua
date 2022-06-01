@@ -1,5 +1,6 @@
 -- Packer (in Manager)
 
+vim.cmd[[packadd packer.nvim]]
 return require('packer').startup(function()
     use {
         -- Packer
@@ -7,7 +8,6 @@ return require('packer').startup(function()
 
         -- Synthwave Colorscheme
         'artanikin/vim-synthwave84',
-        require('Plugins.nvim-colorscheme'),
 
         -- File-Tree
         'kyazdani42/nvim-tree.lua',
@@ -15,26 +15,21 @@ return require('packer').startup(function()
                 'kyazdani42/nvim-web-devicons', 
             },
             tag = 'nightly', 
-        require('Plugins.nvim-nvimtree'),
 
         -- Indent BlankLine
         'lukas-reineke/indent-blankline.nvim',
-        require('Plugins.nvim-indentblankline'),
 
         -- Icons
         'kyazdani42/nvim-web-devicons',
         
         -- Buffer Line
         'noib3/nvim-cokeline',
-        require('Plugins.nvim-bufferline'),
 
         -- Dashboard (Startpage)
         'glepnir/dashboard-nvim',
-        require('Plugins.nvim-dashboard'),
 
         -- Notify
         'rcarriga/nvim-notify',
-        require('Plugins.nvim-notify'),
 
         -- Language Syntax Highlight
         'sheerun/vim-polyglot',
@@ -47,33 +42,25 @@ return require('packer').startup(function()
 
         -- AutoClose HTML Tags
         'alvan/vim-closetag',
-        require('Plugins.nvim-closetag'),
 
         -- Fuzzy-Finder
         'nvim-telescope/telescope.nvim',
         'nvim-lua/plenary.nvim',
-        require('Plugins.nvim-telescope'),
 
         -- Git UI
         'kdheepak/lazygit.nvim',
         'lewis6991/gitsigns.nvim',
-        require('Plugins.nvim-lazygit'),
-        require("Plugins.nvim-gitsigns"),
 
         -- HTML Helper
         'mattn/emmet-vim',
-        require('Plugins.nvim-emmet'), 
 
-        -- LSP,
+        -- LSP
         "williamboman/nvim-lsp-installer",
         "neovim/nvim-lspconfig",
-        require('Plugins.nvim-lspconfig'),
-        require('Plugins.nvim-installer'),
 
         -- Snippets,
         'rafamadriz/friendly-snippets', 
         'L3MON4D3/LuaSnip',  
-        require('Plugins.nvim-snippets'),
 
         -- CMP Autocomplete
         'hrsh7th/nvim-cmp',  
@@ -81,13 +68,12 @@ return require('packer').startup(function()
         'hrsh7th/cmp-path', 
         'hrsh7th/cmp-nvim-lsp', 
         'saadparwaiz1/cmp_luasnip', 
-        require('Plugins.nvim-cmp'),
         
         -- CMP Tabnine
         {'tzachar/cmp-tabnine', run='./install.sh', requires = 'hrsh7th/nvim-cmp'}, 
-        require('Plugins.nvim-cmp-tabnine'),
         
         -- Schemastore
         'b0o/schemastore.nvim',
+
    }
 end)
