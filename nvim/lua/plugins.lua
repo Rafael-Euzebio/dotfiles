@@ -83,6 +83,6 @@ return require('packer').startup(function()
         'jose-elias-alvarez/null-ls.nvim',
 
         -- Prettier
-        'MunifTanjim/prettier.nvim'
+        {'prettier/vim-prettier', run = 'yarn install --frozen-lockfile --production' }
    }
 end)
