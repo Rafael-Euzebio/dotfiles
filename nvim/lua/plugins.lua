@@ -63,6 +63,9 @@ return require('packer').startup(function()
         'hrsh7th/nvim-cmp',
         'dcampos/cmp-snippy',
         'sar/cmp-lsp.nvim',
+        'hrsh7th/cmp-buffer',
+        'hrsh7th/cmp-path',
+        'hrsh7th/cmp-cmdline',
 
         -- CMP Tabnine
         {'tzachar/cmp-tabnine', run='./install.sh', requires = 'hrsh7th/nvim-cmp'},
