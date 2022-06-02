@@ -50,10 +50,10 @@ servers = {
     -- 'cmake',
 
         -- CSS
-    -- 'cssls',
+    'cssls',
 
         -- CSS
-    -- 'cssmodules_ls',
+    'cssmodules_ls',
 
         -- Clarity
     -- 'clarity_lsp',
@@ -98,7 +98,7 @@ servers = {
     -- 'efm',
 
         -- ESLint
-    -- 'eslint',
+    'eslint',
 
         -- Elixir
     -- 'elixirls',
@@ -110,7 +110,7 @@ servers = {
     -- 'ember',
 
         -- Emmet
-    -- 'emmet_ls',
+    'emmet_ls',
 
         -- Erlang
     -- 'erlangls',
@@ -143,7 +143,7 @@ servers = {
     -- 'groovyls',
 
         -- HTML
-    -- 'html',
+    'html',
 
         -- Haskell
     -- 'hls',
@@ -155,19 +155,19 @@ servers = {
     -- 'hoon_ls',
 
         -- JSON
-    -- 'jsonls',
+    'jsonls',
 
         -- Java
     -- 'jdtls',
 
         -- JavaScript
-    -- 'quick_lint_js',
+    'quick_lint_js',
 
         -- JavaScript
-    -- 'tsserver',
+    'tsserver',
 
         -- Jsonnet
-    -- 'jsonnet_ls',
+    'jsonnet_ls',
 
         -- Julia
     -- 'julials',

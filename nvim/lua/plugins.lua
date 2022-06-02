@@ -59,20 +59,19 @@ return require('packer').startup(function()
         "williamboman/nvim-lsp-installer",
         "neovim/nvim-lspconfig",
 
-        -- Snippets,
-        'rafamadriz/friendly-snippets', 
-        'L3MON4D3/LuaSnip',  
-
         -- CMP Autocomplete
-        'hrsh7th/nvim-cmp',  
-        'hrsh7th/cmp-buffer', 
-        'hrsh7th/cmp-path', 
-        'hrsh7th/cmp-nvim-lsp', 
-        'saadparwaiz1/cmp_luasnip', 
-        
+        'hrsh7th/nvim-cmp',
+        'dcampos/cmp-snippy',
+        'sar/cmp-lsp.nvim',
+
         -- CMP Tabnine
-        {'tzachar/cmp-tabnine', run='./install.sh', requires = 'hrsh7th/nvim-cmp'}, 
-        
+        {'tzachar/cmp-tabnine', run='./install.sh', requires = 'hrsh7th/nvim-cmp'},
+
+        -- Snippets,
+        'L3MON4D3/LuaSnip', 
+        'saadparwaiz1/cmp_luasnip',
+        'rafamadriz/friendly-snippets',
+
         -- Schemastore
         'b0o/schemastore.nvim',
 

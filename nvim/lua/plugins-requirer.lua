@@ -33,9 +33,8 @@ require('Plugins.nvim-emmet')
 require('Plugins.nvim-lspconfig')
 require('Plugins.nvim-installer')
 
--- CMP Autocomplete
-require('Plugins.nvim-snippets')
-
--- CMP Tabnine
+-- CMP 
 require('Plugins.nvim-cmp')
-require('Plugins.nvim-cmp-tabnine')
+
+-- Snippets
+require('Plugins.nvim-snippets')
