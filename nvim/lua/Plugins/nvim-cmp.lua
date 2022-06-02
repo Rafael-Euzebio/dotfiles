@@ -23,8 +23,9 @@ cmp.setup({
     sources = cmp.config.sources({
         { name = 'luasnip' },
         { name = 'cmp_tabnine' },
-      }, {
-        {name = "buffer" }
+        {name = "buffer" },
+        {name = "path"},
+        {name = "cmdline"}
       }),
 
     cmp.setup.cmdline('/', {
