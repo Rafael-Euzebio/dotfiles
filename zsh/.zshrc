@@ -14,6 +14,7 @@ autoload -U compinit && compinit
 zstyle ':completion:*' menu select
 
 alias exa="exa --icons"
+alias ls="exa"
 alias ytfzf="ytfzf -t"
 alias ide="tilix --session=~/.config/tilix/ide.json"
 alias notes="nvim --listen /tmp/nvimsocket"
