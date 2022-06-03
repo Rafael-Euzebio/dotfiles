@@ -85,6 +85,9 @@ return require('packer').startup(function()
         'jose-elias-alvarez/null-ls.nvim',
 
         -- Prettier
-        {'prettier/vim-prettier', run = 'yarn install --frozen-lockfile --production' }
+        {'prettier/vim-prettier', run = 'yarn install --frozen-lockfile --production' },
+
+        -- Transparency
+        'xiyaowong/nvim-transparent',
    }
 end)
