@@ -38,3 +38,6 @@ require('Plugins.nvim-cmp')
 
 -- Snippets
 require('Plugins.nvim-snippets')
+
+-- Transparency
+require('Plugins.transparent-nvim')
