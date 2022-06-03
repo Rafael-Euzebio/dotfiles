@@ -2,7 +2,7 @@
     "child": {
         "child1": {
             "directory": "",
-            "height": 590,
+            "height": 606,
             "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
             "readOnly": false,
             "synchronizedInput": true,
@@ -13,7 +13,7 @@
         "child2": {
             "child1": {
                 "directory": "",
-                "height": 177,
+                "height": 161,
                 "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
                 "readOnly": false,
                 "synchronizedInput": true,
@@ -24,7 +24,7 @@
             "child2": {
                 "child1": {
                     "directory": "",
-                    "height": 177,
+                    "height": 161,
                     "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
                     "readOnly": false,
                     "synchronizedInput": true,
@@ -34,7 +34,7 @@
                 },
                 "child2": {
                     "directory": "",
-                    "height": 177,
+                    "height": 161,
                     "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
                     "readOnly": false,
                     "synchronizedInput": true,
@@ -53,8 +53,8 @@
             "type": "Paned"
         },
         "orientation": 1,
-        "position": 76,
-        "ratio": 0.76822916666666663,
+        "position": 78,
+        "ratio": 0.7890625,
         "type": "Paned"
     },
     "height": 768,
