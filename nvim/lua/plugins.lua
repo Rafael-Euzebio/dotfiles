@@ -10,6 +10,7 @@ return require('packer').startup(function()
         -- Synthwave Colorscheme
         'artanikin/vim-synthwave84',
 
+        'Rigellute/shades-of-purple.vim',
         -- File-Tree
         'kyazdani42/nvim-tree.lua',
             requires = {
@@ -89,5 +90,5 @@ return require('packer').startup(function()
 
         -- Transparency
         'xiyaowong/nvim-transparent',
-   }
+    } 
 end)
