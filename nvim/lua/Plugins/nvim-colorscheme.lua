@@ -1,1 +1,1 @@
-vim.cmd(':colorscheme synthwave84')
+vim.cmd(':colorscheme shades_of_purple')
