@@ -10,7 +10,9 @@ return require('packer').startup(function()
         -- Synthwave Colorscheme
         'artanikin/vim-synthwave84',
 
+        -- Shades of Purple theme
         'Rigellute/shades-of-purple.vim',
+
         -- File-Tree
         'kyazdani42/nvim-tree.lua',
             requires = {
