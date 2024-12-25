@@ -1,0 +1,25 @@
+snippet outline "Simple template for outline notes"
+		\documentclass{article}[12pt]
+
+		\usepackage{amsmath, amsthm, amssymb, amsfonts}
+		\usepackage{tikz}
+		\usepackage{hyperref}
+		\hypersetup{
+			colorlinks=true,
+			linkcolor=blue,
+			filecolor=magenta,
+			urlcolor=cyan,
+			pdftitle={Overleaf Example},
+			pdfpagemode=FullScreen,
+			}
+		\usepackage{outlines}
+
+		\begin{document}
+			\section*{Section's title}
+			\begin{outline}
+			\1 This is a first item.
+				\2 A level-2 item.
+					\3 A level 3.
+						\4 Deepest is level 4.
+			\end{outline}
+		\end{document}

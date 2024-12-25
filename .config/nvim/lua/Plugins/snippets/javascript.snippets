@@ -1,0 +1,34 @@
+snippet testExpress "Template to test express routes"
+	const supertest = require('supertest')
+	const { app, server } = require('./index.js')
+	const request = supertest(app)
+	const { it, describe, afterEach } = require('node:test')
+	const assert = require('node:assert/strict')
+
+
+	describe('Testing', () => {
+		afterEach(() => {
+			server.close()
+		})
+
+		it('should ', async () => {
+			const res = await request.post('/users').send({})
+			assert.equal(res.status, 200)
+		})
+	})
+
+snippet testNode "Template to test node components"
+	const { component } = require('../component')
+	const { it, describe } = require('node:test')
+	const assert = require('node:assert/strict')
+
+
+	describe('Testing', () => {
+		afterEach(() => {
+			server.close()
+		})
+
+		it('should ', async () => {
+
+		})
+	})
