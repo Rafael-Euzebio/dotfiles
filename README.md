@@ -25,6 +25,7 @@ Some files must be linked  or copied from this repository. **Following the next 
 ln -s $DOTFILES/.themes ~/.themes
 ln -s $DOTFILES/.icons ~/.icons
 ln -s $DOTFILES/.config/nvim ~/.config/nvim
+ln -s $DOTFILES/.config/.i3 ~/.config/.i3
 ln -s $DOTFILES/.config/tmux ~/.config/tmux
 ln -s $DOTFILES/.moc ~/.moc
 ln -s $DOTFILES/.config/tilix  ~/.config/tilix
