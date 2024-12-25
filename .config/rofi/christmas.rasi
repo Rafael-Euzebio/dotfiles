@@ -1,0 +1,113 @@
+/* everforest */
+/*******************************************************************************
+ * ROFI SQUARED THEME USING THE EVERFOREST PALETTE 
+ * User                 : LR-Tech               
+ * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
+ *******************************************************************************/
+
+* {
+    font:   "FiraCode Nerd Font Medium 11";
+
+    bgdark:     #d8d3ba;
+    bgalt:     #f3ead3;
+    bggreen:     #35a77c;
+    fg0:     #1a1d23;
+
+    accent-color:     #f85552;
+    urgent-color:     #df69ba;
+
+    background-color:   @bgalt;
+    text-color:         @fg0;
+
+    transparent: rgba(0,0,0,0);
+}
+
+window {
+    location:   center;
+    anchor: center;
+    transparency: "screenshot";
+    padding: 10px;
+    border: 0px;
+    border-radius: 3px;
+
+    background-color:   @bgalt;
+    spacing: 0;
+    children: [mainbox];
+    orientation: horizontal;
+}
+
+mainbox {
+    spacing: 0;
+    children: [ inputbar, message, listview ];
+}
+
+message {
+    color: @bggreen;
+    padding: 5px;
+    border-color: @fg0;
+    border: 0px 2px 2px 2px;
+    background-color: @bgdark;
+}
+
+inputbar {
+    color: @fg0;
+    padding:    11px;
+    background-color:   @bgalt;
+
+    border: 1px;
+    border-radius: 3px 3px 0px 0px;
+    border-color: @bggreen;
+}
+
+entry, prompt, case-indicator {
+    text-font: inherit;
+    text-color:inherit;
+}
+
+prompt {
+    margin: 0px 1em 0em 0em ;
+}
+
+listview {
+    padding: 8px;
+    border-radius: 0px 0px 3px 3px;
+    border-color: @bggreen;
+    border: 0px 1px 1px 1px;
+    background-color: rgba(243, 234, 211, 0.9);
+    dynamic: false;
+}
+
+element {
+    padding: 3px;
+    vertical-align: 0.5;
+    border-radius: 3px;
+    background-color: transparent;
+    color: @fg0;
+    text-color: #333333;
+}
+
+element selected.normal {
+	background-color: @accent-color;
+	text-color: white;
+}
+
+element-text, element-icon {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+button {
+    padding: 6px;
+    color: #dfa000;
+    horizontal-align: 0.5;
+
+    border: 2px 0px 2px 2px;
+    border-radius: 4px 0px 0px 4px;
+    border-color: @bggreen;
+}
+
+button selected normal {
+    border: 2px 0px 2px 2px;
+    border-color: @fg0;
+}
+
