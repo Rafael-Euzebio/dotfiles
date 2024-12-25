@@ -1,0 +1,26 @@
+[/]
+accelerators-enabled=true
+new-instance-mode='new-window'
+quake-specific-monitor=0
+terminal-title-show-when-single=false
+terminal-title-style='none'
+unsafe-paste-alert=false
+use-overlay-scrollbar=false
+window-style='borderless'
+
+[keybindings]
+app-preferences='Menu'
+app-shortcuts='disabled'
+
+[profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+background-color='#2D353B'
+badge-color-set=false
+bold-color-set=false
+cursor-colors-set=false
+font='MesloLGS NF Bold 12'
+foreground-color='#D3C6AA'
+highlight-colors-set=false
+palette=['#475258', '#E67E80', '#A7C080', '#DBBC7F', '#7FBBB3', '#D699B6', '#83C092', '#D3C6AA', '#475258', '#E67E80', '#A7C080', '#DBBC7F', '#7FBBB3', '#D699B6', '#83C092', '#D3C6AA']
+use-system-font=false
+use-theme-colors=false
+visible-name='Default'
