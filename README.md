@@ -19,7 +19,7 @@ export DOTFILES="(path to the this repository's directory)"
 export THEME="(options: christmas, christmas-dark, dracula)"
 ```
 
-- Some files must be linked  or copied from this repository. **Following the next instructions may overwrite your own files**
+Some files must be linked  or copied from this repository. **Following the next instructions may overwrite your own files**
 
 ```bash
 ln -s $DOTFILES/.themes ~/.themes
@@ -31,7 +31,7 @@ ln -s $DOTFILES/.config/tilix  ~/.config/tilix
 ln -s $DOTFILES/.config/rofi/ ~/.config/rofi
 ```
 
-- lastly, the `change_theme` file, which changes themes based on the value of `$THEME` defined in `.zshenv`
+lastly, the `change_theme` file, which changes themes based on the value of `$THEME` defined in `.zshenv`
 
 ```bash
 ln -s $DOTFILES/.local/bin/change_theme ~/.local/bin/change_theme
