@@ -1,0 +1,34 @@
+#XfcePanelWindow {
+   -XfcePanelWindow-autohide-size: 10;
+}
+
+#XfcePanelWindowHidden{
+	background: transparent
+}
+
+.xfce4-panel {
+  background-color: #171a1c;
+}
+
+.xfce4-panel > * {
+  background-color: #171a1c;
+}
+
+.xfce4-panel *{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.xfce4-panel * :hover{
+    background-color: #6272a4;
+}
+
+#clock-button {
+	font-weight: 500;
+  background-color: #ff79c6;
+  color: #282a36;
+
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+	border-radius: 3px;
+}
