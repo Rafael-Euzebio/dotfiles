@@ -1,0 +1,51 @@
+#!/bin/bash
+
+if [ -n "$TMUX" ]; then
+  echo "Tmux session is active. Exiting first... Run change-theme again after tmux exits"
+  sleep 5
+  tmux detach
+fi
+
+if tmux ls &> /dev/null; then
+  echo "Killing all tmux sessions"
+  tmux kill-server
+fi
+
+source ~/.zshenv
+
+echo "linking gtk theme"
+mkdir -p ~/.config/gtk-3.0 && ln -sf $DOTFILES/.config/gtk-3.0/$THEME/gtk.css ~/.config/gtk-3.0/gtk.css
+mkdir -p ~/.config/gtk-3.0 && ln -sf $DOTFILES/.config/gtk-3.0/$THEME/settings.ini ~/.config/gtk-3.0/settings.ini
+
+echo "linking rofi theme"
+mkdir -p ~/.config/rofi && ln -sf $DOTFILES/.config/rofi/config.rasi ~/.config/rofi/config.rasi
+mkdir -p ~/.config/rofi && ln -sf $DOTFILES/.config/rofi/$THEME.rasi ~/.config/rofi/theme.rasi
+
+echo "linking zathura theme"
+mkdir -p ~/.config/zathura && ln -sf $DOTFILES/.config/zathura/$THEME ~/.config/zathura/zathurarc
+
+echo "Loading tilix theme"
+dconf load /com/gexperts/Tilix/ < $DOTFILES/.config/tilix/dconf/$THEME.dconf
+
+if pgrep -f xfce4-panel > /dev/null; then
+  echo "restarting xfce4-panel"
+  xfce4-panel -r & disown
+else
+  echo "starting xfce4-panel"
+  xfce4-panel & disown
+fi
+
+echo "Setting wallpaper"
+feh --bg-fill $DOTFILES/Wallpapers/$THEME.jpg
+
+echo "Removing borders"
+pkill "borders"
+
+echo "Drawing borders"
+if [ $THEME = "christmas" ]; then
+  i3-msg exec "xborders --border-red 71 --border-gree 200 --border-blue 91 --border-width 2 --border-radius 0 --disable-version-warning"
+elif [ $THEME = "christmas-dark" ]; then
+  i3-msg exec "xborders --border-red 230 --border-gree 104 --border-blue 104 --border-width 2 --border-radius 0 --disable-version-warning"
+elif [ $THEME = "dracula" ]; then
+  i3-msg exec "xborders --border-red 255 --border-gree 121 --border-blue 198 --border-width 2 --border-radius 0 --disable-version-warning"
+fi
