@@ -24,6 +24,9 @@ mkdir -p ~/.config/rofi && ln -sf $DOTFILES/.config/rofi/$THEME.rasi ~/.config/r
 echo "linking zathura theme"
 mkdir -p ~/.config/zathura && ln -sf $DOTFILES/.config/zathura/$THEME ~/.config/zathura/zathurarc
 
+echo "linking btop theme"
+mkdir -p ~/.config/btop/themes && ln -sf $DOTFILES/.config/btop/themes/$THEME.theme ~/.config/btop/themes/btop.theme
+
 echo "Loading tilix theme"
 dconf load /com/gexperts/Tilix/ < $DOTFILES/.config/tilix/dconf/$THEME.dconf
 
