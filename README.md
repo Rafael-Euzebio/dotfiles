@@ -14,6 +14,14 @@
 ![](./Screenshots/Christmas-Dark/folders.png)
 ![](./Screenshots/Christmas-Dark/launcher.png)
 
+## Dracula
+
+![](./Screenshots/Dracula/wallpaper.png)
+![](./Screenshots/Dracula/code.png)
+![](./Screenshots/Dracula/panel.png)
+![](./Screenshots/Dracula/folders.png)
+![](./Screenshots/Dracula/launcher.png)
+
 ⚠️ **this repository contains my own dotfiles for my personal use. Following the instructions below or running any scripts from this repository may overwrite your own dotfiles. I am not responsible for any data loss you cause by running any script or instruction contained in this repository. MAKE SURE YOU KNOW WHAT YOU'RE DOING** ⚠️
 
 
