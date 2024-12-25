@@ -1,4 +1,4 @@
-⚠️ **this repository contains my own dotfiles for my personal use. Following the instructions below or running any scripts in this repository may overwrite your own dotfiles. I am not responsible for any data loss you cause by running any script or instruction contained in this repository. MAKE SURE YOU KNOW WHAT YOU'RE DOING** ⚠️
+⚠️ **this repository contains my own dotfiles for my personal use. Following the instructions below or running any scripts from this repository may overwrite your own dotfiles. I am not responsible for any data loss you cause by running any script or instruction contained in this repository. MAKE SURE YOU KNOW WHAT YOU'RE DOING** ⚠️
 
 
 ### Instructions
