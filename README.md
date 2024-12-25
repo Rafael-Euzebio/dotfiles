@@ -30,6 +30,7 @@ ln -s $DOTFILES/.config/tmux ~/.config/tmux
 ln -s $DOTFILES/.moc ~/.moc
 ln -s $DOTFILES/.config/tilix  ~/.config/tilix
 ln -s $DOTFILES/.config/rofi/ ~/.config/rofi
+ln -s $DOTFILES/.config/btop/ ~/.config/btop
 ```
 
 lastly, the `change_theme` file, which changes themes based on the value of `$THEME` defined in `.zshenv`
