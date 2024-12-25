@@ -37,7 +37,7 @@ lastly, the `change_theme` file, which changes themes based on the value of `$TH
 ln -s $DOTFILES/.local/bin/change_theme ~/.local/bin/change_theme
 ```
 
-Some themes are changed in their own apps like [Neovim](https://github.com/Rafael-Euzebio/dotfiles/blob/master/.config/nvim/lua/Plugins/nvim-colorscheme.lua) and [Tmux](https://github.com/Rafael-Euzebio/dotfiles/blob/master/.config/tmux/tmux.conf) through through `$THEME` value
+Some themes are changed in their own apps like [Neovim](https://github.com/Rafael-Euzebio/dotfiles/blob/master/.config/nvim/lua/Plugins/nvim-colorscheme.lua) and [Tmux](https://github.com/Rafael-Euzebio/dotfiles/blob/master/.config/tmux/tmux.conf) through `$THEME` value
 
 Others are changed by relinking files/folders (this is only used as a last resource when config files do not allow programming logic) 
 
