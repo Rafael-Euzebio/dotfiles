@@ -1,3 +1,19 @@
+## Light Christmas Theme
+
+![](./Screenshots/Christmas/wallpaper.png)
+![](./Screenshots/Christmas/code.png)
+![](./Screenshots/Christmas/panel.png)
+![](./Screenshots/Christmas/folders.png)
+![](./Screenshots/Christmas/launcher.png)
+
+## Dark Christmas Theme
+
+![](./Screenshots/Christmas-Dark/wallpaper.png)
+![](./Screenshots/Christmas-Dark/code.png)
+![](./Screenshots/Christmas-Dark/panel.png)
+![](./Screenshots/Christmas-Dark/folders.png)
+![](./Screenshots/Christmas-Dark/launcher.png)
+
 ⚠️ **this repository contains my own dotfiles for my personal use. Following the instructions below or running any scripts from this repository may overwrite your own dotfiles. I am not responsible for any data loss you cause by running any script or instruction contained in this repository. MAKE SURE YOU KNOW WHAT YOU'RE DOING** ⚠️
 
 
